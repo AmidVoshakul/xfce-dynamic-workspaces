@@ -34,13 +34,9 @@ manage_workspaces() {
         fi
     done
 
-    echo "Рабочих пространств: $workspaces"
-    echo "Пустых рабочих пространств: $empty_count"
-
     # Создаём новое рабочее пространство, только если ВСЕ существующие заняты
     if [ "$empty_count" -eq 0 ]; then
         wmctrl -n $((workspaces + 1))  # Создаем новое рабочее пространство
-        echo "Добавлено новое рабочее пространство!"
         sleep 2
     fi
 
@@ -50,7 +46,6 @@ manage_workspaces() {
             occupied=$(is_workspace_occupied $i)
             if [ "$occupied" -eq 0 ]; then
                 wmctrl -n $((workspaces - 1))  # Удаляем пустое рабочее пространство
-                echo "Удалено пустое рабочее пространство!"
                 sleep 2
                 break  # Удаляем только одно пустое пространство
             fi
