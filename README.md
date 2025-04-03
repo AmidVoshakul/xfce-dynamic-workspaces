@@ -4,13 +4,16 @@
 
 📦 Установка
 
+## 📦 Установка  
+
 ```bash
-sudo apt install wmctrl
-git clone https://github.com/USERNAME/xfce-dynamic-workspaces.git
-cd xfce-dynamic-workspaces
-chmod +x install.sh
-./install.sh
----
+sudo apt install wmctrl  # Устанавливаем wmctrl  
+git clone https://github.com/USERNAME/xfce-dynamic-workspaces.git  
+cd xfce-dynamic-workspaces  
+chmod +x install.sh  
+./install.sh  
+
+
 🚀 Возможности:
 
 ✅ Создаёт новое рабочее пространство только если все существующие заняты 
