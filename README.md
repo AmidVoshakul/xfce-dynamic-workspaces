@@ -8,7 +8,7 @@
 bash
 
     sudo apt install wmctrl  # Устанавливаем wmctrl  
-    git clone https://github.com/USERNAME/xfce-dynamic-workspaces.git  
+    git clone https://github.com/AmidVoshakul/xfce-dynamic-workspaces.git  
     cd xfce-dynamic-workspaces  
     chmod +x install.sh  
     ./install.sh
