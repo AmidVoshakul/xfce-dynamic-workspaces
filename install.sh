@@ -2,7 +2,7 @@
 
 # Устанавливаем директорию для скрипта
 INSTALL_DIR="$HOME/.config/autostart"
-SCRIPT_URL="https://raw.githubusercontent.com/USERNAME/xfce-dynamic-workspaces/main/xfce-dynamic-workspaces.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/AmidVoshakul/xfce-dynamic-workspaces/main/xfce-dynamic-workspaces.sh"
 
 # Создаём директорию, если её нет
 mkdir -p "$INSTALL_DIR"
