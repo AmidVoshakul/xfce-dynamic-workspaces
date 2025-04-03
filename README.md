@@ -6,13 +6,13 @@
 
 ## 📦 Установка  
 
-```bash
-sudo apt install wmctrl  # Устанавливаем wmctrl  
-git clone https://github.com/USERNAME/xfce-dynamic-workspaces.git  
-cd xfce-dynamic-workspaces  
-chmod +x install.sh  
-./install.sh  
+bash
 
+    sudo apt install wmctrl  # Устанавливаем wmctrl  
+    git clone https://github.com/USERNAME/xfce-dynamic-workspaces.git  
+    cd xfce-dynamic-workspaces  
+    chmod +x install.sh  
+    ./install.sh
 
 🚀 Возможности:
 
@@ -24,7 +24,7 @@ chmod +x install.sh
 
 После установки скрипт автоматически добавляется в автозапуск. Если нужно отключить:
 
-rm ~/.config/autostart/xfce-dynamic-workspaces.desktop
+    rm ~/.config/autostart/xfce-dynamic-workspaces.desktop
 
 🛠 Требования:
 
