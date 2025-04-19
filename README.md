@@ -1,41 +1,41 @@
 ##        🚀🎉 Xfce Dynamic Workspaces 😃
 
-💪 Этот скрипт позволяет автоматически управлять рабочими пространствами в Xfce, имитируя динамическое поведение GNOME. 
+💪 This script allows you to automatically manage workspaces in Xfce, mimicking the dynamic behavior of GNOME. 
 
 
- 📦 Установка  
+ 📦 Install  
 
 bash
 
-    sudo apt install wmctrl  # Устанавливаем wmctrl  
+    sudo apt install wmctrl   
     git clone https://github.com/AmidVoshakul/xfce-dynamic-workspaces.git  
     cd xfce-dynamic-workspaces  
     chmod +x install.sh  
     ./install.sh
 
- 🚀 Возможности:
+ 🚀 Possibilities::
 
-✅ Создаёт новое рабочее пространство только если все существующие заняты 
+✅ Creates a new workspace only if all existing ones are occupied.
 
-✅ Удаляет лишние пустые рабочие пространства, оставляя одно свободное 
+✅ Removes extra empty workspaces, leaving one free one 
 
-✅ Работает динамично и без резких изменений, как GNOME
+✅ Works dynamically and without drastic changes, like GNOME
 
 
- 🔄 Автозапуск:
+ 🔄 Autostart:
 
-После установки скрипт автоматически добавляется в автозапуск. Если нужно отключить:
+After installation, the script is automatically added to startup. If you need to disable:
 
     rm ~/.config/autostart/xfce-dynamic-workspaces.desktop
     
 
- 🛠 Требования:
+ 🛠 Requirements:
 
     Xfce
 
     wmctrl (sudo apt install wmctrl)
  
- 🔧 **Запусти `install.sh`, и Xfce начнёт вести себя как GNOME!**  
+ 🔧 **Run `install.sh` and Xfce will start behaving like GNOME!**  
 
-Теперь твоя система **автоматически управляет рабочими пространствами**! 🚀 💪 😃
+Now your system **automatically manages workspaces**! 🚀 💪 😃
 
